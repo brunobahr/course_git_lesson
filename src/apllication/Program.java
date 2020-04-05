@@ -13,10 +13,11 @@ public class Program {
 		if (x>y) {
 			System.out.println("O número " + x + " é o maior");
 		}
-		else {
+		else if (x<y) {
 			System.out.println("O número " + y + " é o maior");
+		}else {
+			System.out.println("Os números são iguais.");
 		}
-		
 		
 		sc.close();
 
